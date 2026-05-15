@@ -8,7 +8,7 @@ El dataset fue construido manualmente utilizando imágenes urbanas y rurales de 
 Las anotaciones fueron realizadas en Roboflow utilizando bounding boxes.
 
 Clases:
-- houses
+- house
 
 Enlace al dataset:
 [Google Drive Dataset](https://drive.google.com/drive/folders/1oGiniFfYfnSLuGqxpnJYAqvt2ne0UMhb?usp=sharing)
@@ -20,6 +20,7 @@ taller-yolo-casas/
 │
 ├── dataset/
 ├── models/
+├── results/
 ├── src/
 ├── data.yaml
 ├── requirements.txt
@@ -70,3 +71,9 @@ El modelo logró detectar casas en imágenes de prueba, aunque presentó falsos 
 - Mejorar diversidad del dataset
 - Ajustar hiperparámetros
 - Probar modelos YOLO más grandes
+
+## Ejemplo de inferencia
+
+Imagen de prueba utilizando el modelo entrenado:
+
+![deteccion](results/resultado.jpg)
