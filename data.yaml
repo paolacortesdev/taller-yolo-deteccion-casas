@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['houses']
+
+roboflow:
+  workspace: paolas-workspace-rzmnc
+  project: fachadas_proyecto
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/paolas-workspace-rzmnc/fachadas_proyecto/dataset/2
