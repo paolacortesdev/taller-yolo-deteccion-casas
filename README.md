@@ -10,6 +10,9 @@ Las anotaciones fueron realizadas en Roboflow utilizando bounding boxes.
 Clases:
 - houses
 
+Enlace al dataset:
+[Google Drive Dataset](https://drive.google.com/drive/folders/1oGiniFfYfnSLuGqxpnJYAqvt2ne0UMhb?usp=sharing)
+
 ## Estructura del proyecto
 
 ```bash
